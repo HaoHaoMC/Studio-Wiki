@@ -8,11 +8,21 @@
 </head>
 
 <body>
+    <script src="Scripts/Main.js"></script>
 
-    <h1>Hello, World!</h1>
+    <script id="input-script"></script>
 
-    <p>X-Studio·Wiki</p>
+    <dialog id="dialog">
+        <h4 id="dialog-title"></h4>
+        <div id="dialog-body"></div>
+        <button onclick="closeDialog()" autofocus>取消操作</button>
+    </dialog>
 
+    <header id="header" class="unselected"></header>
+
+    <div id="wiki-body"></div>
+
+    <footer id="footer"></footer>
 </body>
 
 </html>

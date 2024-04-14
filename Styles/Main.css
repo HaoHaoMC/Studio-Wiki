@@ -1,0 +1,262 @@
+a {
+    color: #000000;
+    transition-duration: 0.3s;
+}
+
+a:link {
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    color: #ffa500;
+    transition-duration: 0.3s;
+
+}
+
+a:active {
+    color: #ffc800;
+    transition-duration: 0.3s;
+}
+
+audio {
+    border: solid 0.15em #808080;
+    border-radius: 1em;
+    background-color: #f1f3f4;
+}
+
+body {
+    text-align: center;
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+body * {
+    font-family: "思源黑体", Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #c8c8c8;
+    border: #000000 solid 0.15em;
+    border-radius: 0.5em;
+    outline: 0;
+    transition-duration: 0.3s;
+}
+
+button:focus {
+    background-color: #ffddbb;
+    border: #6b00e5 solid 0.15em;
+    color: #0000aa;
+    transition-duration: 0.3s;
+    outline: 0;
+}
+
+button:hover {
+    background-color: #ff7700;
+    border: #ffffff solid 0.15em;
+    color: #5300b2;
+    transition-duration: 0.3s;
+    outline: 0;
+}
+
+button:active {
+    background-color: #ffdd00;
+    transition-duration: 0.3s;
+    outline: 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #eeeeee;
+    border: #000000 solid 0.15em;
+    border-radius: 0.5em;
+    color: #000099;
+    outline: 0;
+    transition-duration: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #ffddbb;
+    border: #0000aa solid 0.15em;
+    color: #6b00e5;
+    outline: 0;
+    transition-duration: 0.3s;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+    background-color: #eeeeee;
+    border: #ff7700 solid 0.15em;
+    color: #5300b2;
+    outline: 0;
+    transition-duration: 0.3s;
+}
+
+input[type="checkbox"] {
+    background-color: #eeeeee;
+    border: #000000 solid 0.15em;
+    outline: 0;
+    border-radius: 0.5em;
+}
+
+input[type="checkbox"]:focus {
+    background-color: #eeeeee;
+    border: #0000aa solid 0.15em;
+    outline: 0;
+    transition-duration: 0.3s;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #eeeeee;
+    border: #ff7700 solid 0.15em;
+    outline: 0;
+    transition-duration: 0.3s;
+}
+
+textarea {
+    background-color: #eeeeee;
+    border: #000000 solid 0.15em;
+    border-radius: 0.5em;
+    min-width: 12em;
+    min-height: 5em;
+}
+
+textarea:focus {
+    background-color: #eeeeee;
+    border: #0000aa solid 0.15em;
+    outline: 0;
+    transition-duration: 0.3s;
+}
+
+textarea:hover {
+    background-color: #eeeeee;
+    border: #ff7700 solid 0.15em;
+    outline: 0;
+    transition-duration: 0.3s;
+}
+
+table {
+    text-align: center;
+}
+
+img {
+    mask-repeat: no-repeat;
+}
+
+#dialog {
+    outline: none;
+    border: none;
+
+    border-radius: 1em;
+    text-align: left;
+
+    background-color: #eeeeeeee;
+    backdrop-filter: blur(2em);
+    -webkit-backdrop-filter: blur(2em);
+
+    min-width: 5em;
+    min-height: 3em;
+    max-width: 20em;
+
+
+
+}
+
+#dialog #dialog-title {
+    margin: 0;
+}
+
+#dialog #dialog-body {
+    margin-top: 1em;
+}
+
+#user-info {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#user-info #user-icon {
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+
+#user-info #user-name {
+    max-width: 11em;
+    max-height: 2em;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+
+    margin-bottom: 6.4em;
+
+    background-color: #d3d3d380;
+    backdrop-filter: blur(2em);
+
+    vertical-align: top;
+
+    width: 100%;
+
+}
+
+#page-body {
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+}
+
+#footer {
+    margin-top: 1em;
+    text-align: left;
+    background-color: #d5d5d5;
+    width: 100%;
+}
+
+.unselected {
+    user-select: none;
+}
+
+.selected {
+    user-select: text;
+}
+
+.notes {
+    color: #555555;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.font-red {
+    color: #ff0000;
+}
+
+.under-red {
+    background-color: #ff999965;
+    border-radius: 1em;
+    padding: 1px;
+
+}
+
+.under-orange {
+    background-color: #ff990065;
+    border-radius: 1em;
+    padding: 1px;
+
+}
+
+.under-yellow {
+    background-color: #ffee0065;
+    border-radius: 1em;
+    padding: 1em;
+
+}
+
+.under-green {
+    background-color: #66ff6665;
+    border-radius: 1em;
+    padding: 1em;
+
+}
